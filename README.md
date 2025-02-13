@@ -1,1 +1,1 @@
-# Weather-Data-Ingestion-AWS
+This project is an end-to-end data pipeline built on AWS that fetches real-time weather data from an external API, processes and stores the data in DynamoDB, streams it to S3, and loads it into Snowflake for querying and analysis. The pipeline is scheduled to run every hour using AWS Lambda functions.
